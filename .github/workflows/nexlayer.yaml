@@ -1,0 +1,9 @@
+name: react-counter
+framework: create-react-app
+build:
+  install: npm ci
+  command: npm run build
+  output: build
+runtime:
+  node: "18"
+
