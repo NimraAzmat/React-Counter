@@ -2,7 +2,7 @@ application:
   name: "react-counter-app"
   pods:
     - name: react-counter
-      image: "nimraazmat/simple-counter:latest"
+      image: "nimraazmat/counter:latest"
       path: "/"
       servicePorts:
         - 80
