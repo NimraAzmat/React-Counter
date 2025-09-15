@@ -1,0 +1,12 @@
+application:
+  name: "react-counter-app"
+  pods:
+    - name: react-counter
+      image: "nimraazmat/simple-counter:latest"
+      path: "/"
+      servicePorts:
+        - 80
+      vars:
+        # Add any environment variables your React app needs
+        # For example:
+        # REACT_APP_API_URL: "https://your-api-url.com"
